@@ -9,10 +9,10 @@
 
   <spline-viewer class=" h-screen m-0 p-0 overflow-hidden" url="https://prod.spline.design/OpdimfhcS9n9zOAK/scene.splinecode"></spline-viewer>
 
-  <div class="absolute top-24 p-8 grid place-items-center  ">
+  <div class=" w-screen absolute top-24 p-8 grid place-items-center  ">
     <div class="flex flex-col gap-2 p-8 items-center  text-white ">
       <h1 class="text-center text-4xl font-bold tracking-tight sm:text-6xl">Events, Restaurant consultancy</h1>
-          <p class=" text-center mt-6 text-lg leading-8 ">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+          <p class=" max-w-xl text-center mt-6 text-lg leading-8 ">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
           <a href="/contact"><button class=" mt-6 w-48 btn btn-primary">Get in touch</button></a>
     </div>
   
