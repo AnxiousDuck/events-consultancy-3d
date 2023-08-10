@@ -2,29 +2,42 @@
 	import '../app.css';
 </script>
 
-<div class="navbar text-black z-50 bg-white">
+
+<div class="absolute inset-0 -z-10 overflow-hidden">
+    <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
+      <defs>
+        <pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
+          <path d="M100 200V.5M.5 .5H200" fill="none" />
+        </pattern>
+      </defs>
+      <svg x="50%" y="-1" class="overflow-visible fill-gray-50">
+        <path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0" />
+      </svg>
+      <rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
+    </svg>
+  </div>
+
+<div class="navbar text-black">
   <div class="navbar-start">
     
-    <a href="/" class="btn btn-ghost normal-case text-xl ">Events Consultancy</a>
+    <a href="/" class=" lg:px-8 btn btn-ghost normal-case text-xl ">Events Consultancy</a>
   </div>
   <div class="navbar-end ">
 
-    <div class="dropdown dropdown-end">
+    <div class="flex lg:hidden dropdown dropdown-end">
 
         <label tabindex="0" class="btn btn-ghost btn-circle">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
         </label>
         <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-          <li><a>About Us</a></li>
-          <li><a>Menu</a></li>
-          <li><a>Get in touch</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Get in touch</a></li>
         </ul>
     </div>
 
 
     <ul class=" menu menu-horizontal px-1 hidden lg:flex leading-6 text-black ">
       <li><a href="/about" class="btn btn-ghost normal-case text-md font-normal font-sans">About Us</a></li>
-      <li><a href="/menu" class="btn btn-ghost normal-case text-md font-normal font-sans">Menu</a></li>
       <li><a href="/contact" class="btn btn-ghost normal-case text-md font-normal font-sans">Get in touch</a></li>
     </ul>
   </div>

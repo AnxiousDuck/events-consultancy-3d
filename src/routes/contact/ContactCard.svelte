@@ -1,4 +1,4 @@
-<div class="hero min-h-screen bg-base-200 font-sora">
+<div class="hero min-h-screen font-sora">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="text-center lg:m-0 mt-28 lg:text-left">
       <h1 class="text-5xl font-bold">Get in touch with us</h1>
